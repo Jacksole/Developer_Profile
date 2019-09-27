@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 from blog.forms import CommentForm
 # Create your views here.
-from blog.models import Post
+from blog.models import Post, Comment
 
 
 def blog_index(request):
